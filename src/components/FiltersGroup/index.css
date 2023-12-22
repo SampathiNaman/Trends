@@ -1,0 +1,62 @@
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.filter-title {
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.search-input-container {
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding: 4px 16px;
+}
+
+.search-input {
+  width: 100%;
+  color: #0f172a;
+  background-color: #f1f5f9;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.search-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.category-option {
+  color: #475569;
+  margin: 12px 0px;
+}
+
+.category-selected {
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.selected-rating-item {
+  border: 1px solid #0967d2;
+  border-radius: 4px;
+}
+
+.rating-filter-img {
+  width: 150px;
+  margin-right: 10px;
+}
